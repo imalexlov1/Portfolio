@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cette page est Portefolio, j'en suis très fier !">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="moi">
+        <b>Alex LOVIN, futur ingénieur en informatique ! </b>
+    </div>
+    <br><br><br>
+    <section id="accueil" class="Presentation">
+            Je m'appelle <b>Alex LOVIN</b>. Je recherche une 
+            alternance dans le domaine du développement informatique, afin de mettre en pratique mes compétences
+            et d'en apprendre davantage. <br> Étudiant à l'IUT informatique de Blagnac (31), je suis passionné par l'informatique depuis
+             très longtemps. Mon père est lui même ingénieur en informatique, et m'a transmis sa passion. <br>
+            <br>
+             <a href="#contact">Contactez-moi</a>
+    </section>
+    <div class="equipe1">
+        <img src="ressources/equipe1.jpg">
+    </div>
+    <section class="Competences">  
+        <div class="langages">
+            Voici les langages que je maîtrise en ordre de préférence: 
+            <br>
+        </div>
+    <table>
+        <tr>
+            <td>Python <img src="ressources/Python.png"></td>
+            <td>SQL<img src="ressources/sql.png"></td>
+            <td>Unix<img src="ressources/unix.png"></td>
+            <td>Java <img src="ressources/Java.png"></td>
+            <td>HTML<img src="ressources/html.png"></td>
+            <td>CSS<img src="ressources/css.png"> </td>
+            <td>C#<img src="ressources/c.png"></td>
+        </tr>
+    </table>
+    </section>
+    <div class="code">
+        <img src="ressources/code.jpeg">
+    </div>
+    <section id="portfolio" class="Portfolio">
+        <h1>Portfolio : SAÉ (Universitaire)
+        <br>C’est Quoi Une SAÉ ?</h1><hr> <br><br>
+            <div class="sae">
+            La <b>SAÉ</b> ou <b>S</b>ituation d’<b>A</b>pprentissage et d’<b>É</b>valuation est 
+            « un ensemble constitué d’une ou plusieurs tâches à réaliser 
+            par l’étudiant en vue d’atteindre le but fixé ». Elle permet à 
+            l’étudiant de développer et d’exercer une compétence <b>indispensable</b> 
+            pour l’acquisition de son diplôme universitaire. <br>Une SAÉ se concentre 
+            sur une pédagogie incluant des <b>objectifs</b>, une méthode et l’évaluation 
+            de celle-ci. C’est la <b>cohérence</b> entre ces trois piliers qui est 
+            recherchée au sein de celle-ci. <br>
+            Elle est donc utilisée aussi par <b>l’enseignant</b>, afin de suivre le 
+            développement des compétences  de l’élève et de l’aider dans l’apprentissage.
+             L’étudiant sera confronté à plusieurs mises en situation professionnelle 
+             authentique et complexe au cours de son cursus universitaire, afin 
+             d’acquérir et d’évaluer ses compétences. Les compétences deviennent
+              le cœur du système, car <b>les SAÉ représentent 40 % </b> de la note finale
+             de la formation.</p>
+            </div>
+             <div class="categorie">
+                <h2>SAE 1.01</h2>
+                <div class="project">
+                    Implémentation d'un besoin client 
+                    <br><br>
+                    <a href="ressources/TempsCourse.java" target="_blank">Le code</a>
+                    <br>
+                </div>
+                <div class="project">
+                    <a href="ressources/CRSAE1.01.pdf" target="_blank">Le compte rendu</a>
+                </div>
+            </div>
+        
+            <div class="categorie">
+                <h2>SAE 1.05</h2>
+                <div class="project">
+                    Recueil de besoin
+                    <br><br>
+                    <a href="ressources/CRSAE1.05.pdf" target="_blank">Le compte rendu</a>
+                </div>
+                <div class="project">
+                    
+                    <a href="ressources/Diapo1.05.pdf" target="_blank">Diaporama</a>
+                    <br>
+                </div>
+                <div class="project">
+                    <a href="https://www.youtube.com/watch?v=9SqOMyvyt9E" target="_blank">Video</a>
+                </div>
+            </div>
+            <div class="CV">
+                <a href="ressources/CVAlex LOVIN.pdf" target="_blank">Consulter mon CV</a>
+            </div>
+
+    </section>
+    <div class="equipe2">
+        <img src="ressources/equipe2.jpeg">
+
+    </div>
+    <section id="contact" class="Contact">
+        <h1>Pour me contacter</h1>
+        <form method="post">
+            <div class="form-group">
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required>
+            </div>
+            <div class="form-group">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Adresse Email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="entreprise">Nom de l'entreprise (optionnel) :</label>
+                <input type="text" id="entreprise" name="entreprise">
+            </div>
+            <div class="form-group">
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Veuillez rentrer votre message"></textarea>
+            </div>
+            <button type="submit">Envoyer</button>
+        </form>
+        
+    </section>
+    <br><br><br><br><br><br><br><br><!-- Pour voir la fin du formulaire (solution que j'ai trouvé. Cela fonctionne mais c'est pas très beau.) -->
+    <footer>
+        <div class="logos">
+            <a href="https://www.instagram.com/alex__lovin/">
+                <img src="ressources/instagram.png" alt="Instagram">
+            </a>
+            <a href="https://github.com/imalexlov1" >
+            <img src="ressources/github.png" alt="github">
+            </a>
+        </div>
+        <div class="copyright">
+            © 2023/2024 - Réalisé par <b>Alex LOVIN</b> - Tous droits réservés
+        </div>
+    </footer>
+</body>
+</html>
