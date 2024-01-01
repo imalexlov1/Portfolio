@@ -1,0 +1,297 @@
+/* Réinitialisation des marges et des padding du corps de la page */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;    
+}
+html {
+    scroll-behavior: smooth;
+}   
+
+/* Style de la barre de navigation */
+nav {
+    background-color: #00ABE4; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    position: fixed; 
+    width: 100%; 
+}
+
+
+nav ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    margin: 0; /* Supprime la marge par défaut */
+    padding: 0; /* Supprime le rembourrage par défaut */
+    overflow: hidden; /* Gestion du dépassement pour éviter que les éléments flottants ne déforment la mise en page */
+}
+
+/* Style des éléments de la liste (li) du menu */
+nav li {
+    float: left; /* Les éléments flottent à gauche pour créer un menu horizontal */
+}
+
+nav a {
+    display: block; /* Les liens sont affichés en tant que bloc pour occuper toute la largeur du conteneur li */
+    color: black; ; /* Couleur du texte */
+    text-align: center; /* Centrage du texte */
+    padding: 14px 16px; /* Rembourrage pour l'apparence du bouton */
+    text-decoration: none; /* Supprime la soulignement par défaut des liens */
+    font-weight: bold; /* Texte en gras */
+    background-color: #00ABE4;
+}
+
+nav a:hover {
+    background-color:#2e3638; /* Couleur de fond au survol */
+    color: #EEF5FC; /* Changement de couleur du texte au survol */
+    font-size: 15px;
+    transition:1s;
+}
+h1{
+    color: #000103;
+    font-size: 70px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.moi{
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+    background-image: url("ressources/tech.jpeg");
+    background-size: cover;
+    
+}
+
+.Presentation {
+    background-color: #f4f4f4;
+    padding-left: 200px;
+    padding-right: 200px; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px; /* Bords arrondis */
+    text-align: center;
+    max-width: 1200px; /* Largeur maximale du portfolio */
+    margin: 0 auto;
+    font-size: 30px;
+    color: #616161;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+.Presentation a{
+    text-decoration: none;
+    color: #616161;
+    font-weight: bold;
+    font-size: 40px;
+ 
+}
+.Presentation a:hover {
+    color: #00ABE4;
+    font-size: 50px;
+    transition: 1s;
+}
+.equipe1 {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.equipe1 img {
+    max-width: 70%; 
+    border-radius: 60px;
+}
+
+
+.Competences {
+    display: flex;
+    flex-direction: column; 
+    font-size: 30px;
+    color: #000000;
+    padding-top: 60px; 
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 60px;
+    
+}
+
+.Competences table {
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+
+.Competences td {
+    padding: 12px;
+    text-align: center;
+}
+
+
+.Competences tr:first-child {
+    background-color: #f2f2f2;
+}
+
+.Competences td:hover {
+    background-color: #e0e0e0;
+}
+
+.Competences img {
+    width: 100px;
+    height: 100px;
+
+}
+.langages{
+    color: #616161;
+    text-align: center;
+}
+
+
+.Portfolio {
+    background-color: #f4f4f4;
+    padding-left: 200px;
+    padding-right: 200px; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px; /* Bords arrondis */
+    text-align: center;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.categorie {
+    border: 2px solid #333030; /* Ajout de la bordure autour de chaque catégorie */
+    border-radius: 10px; /* Bords arrondis */
+    margin-bottom: 20px; /* Espacement entre les catégories */
+    padding: 20px; /* Espacement à l'intérieur de chaque catégorie */
+}
+
+.project {
+    margin-top: 10px; 
+}
+.button-container {
+    margin-bottom: 20px;
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
+.button-container h2 {
+    font-size: 24px;
+    color: #00ABE4;
+    margin-bottom: 10px;
+}
+.sae{
+    font-size: 30px;
+}
+.code {
+    padding: 100px;
+    display: flex;
+    align-items: center; /* Centrer verticalement */
+    justify-content: center; /* Centrer horizontalement */
+    
+}
+
+.code img {
+    max-width: 100%; 
+    border-radius: 60px;
+}
+.CV a {
+    display: inline-block;
+    background-color: #00ABE4;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.CV a:hover {
+    background-color: #2e3638;
+}
+.equipe2 {
+    padding: 100px;
+    display: flex;
+    align-items: center; /* Centrer verticalement */
+    justify-content: center; /* Centrer horizontalement */
+}
+
+.equipe2 img {
+    max-width: 100%; 
+    border-radius: 60px;
+}
+.Contact {
+    background-color: #f4f4f4; 
+    padding: 50px;
+    border-radius: 20px; /* Bords arrondis */
+    text-align: center;
+    max-width: 800px; /* Largeur maximale du formulaire */
+    margin: 0 auto; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+input,textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+button {
+    background-color: #00ABE4;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background-color:#2e3638; /* Couleur de fond au survol */
+    color: #EEF5FC; /* Changement de couleur du texte au survol */
+    font-size: 15px;
+    transition:1s;
+}
+footer{
+    background-color: #00ABE4;
+    height: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    padding-top: 10px;
+    position: fixed; 
+    width: 100%; 
+}
+footer img{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20px; 
+    height: 20px; 
+}
+
+.copyright{
+    text-decoration: none;
+    color: black;
+    font: 15px Bodoni MT;
+    font-size: 15px;
+    margin-left: 10px;
+}
