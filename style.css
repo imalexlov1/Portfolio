@@ -255,6 +255,30 @@ input,textarea {
     border-radius: 8px;
     margin-bottom: 15px;
 }
+.perso ul {
+    list-style-type: none; /* Supprime la puce de la liste */
+    padding: 0; /* Supprime le remplissage par défaut de la liste */
+    margin: 0; /* Supprime la marge par défaut de la liste */
+}
+
+.perso li {
+    margin-bottom: 10px; /* Ajoute une marge entre chaque élément de la liste */
+}
+.perso{
+    padding-bottom: 50px;
+    font-size: 20px;
+    color: #616161;
+}
+.perso b{
+    color: black;
+}
+h2{
+    color: #2e3638;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 button {
     background-color: #00ABE4;
     color: white;
